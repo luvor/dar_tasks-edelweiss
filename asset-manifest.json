@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dar_tasks-edelweiss/static/css/main.c7698b58.css",
+    "main.js": "/dar_tasks-edelweiss/static/js/main.10ecf000.js",
+    "static/js/787.17286c6f.chunk.js": "/dar_tasks-edelweiss/static/js/787.17286c6f.chunk.js",
+    "static/media/edelweiss.jpg": "/dar_tasks-edelweiss/static/media/edelweiss.4370ba55e9de0a06b4fd.jpg",
+    "index.html": "/dar_tasks-edelweiss/index.html",
+    "main.c7698b58.css.map": "/dar_tasks-edelweiss/static/css/main.c7698b58.css.map",
+    "main.10ecf000.js.map": "/dar_tasks-edelweiss/static/js/main.10ecf000.js.map",
+    "787.17286c6f.chunk.js.map": "/dar_tasks-edelweiss/static/js/787.17286c6f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c7698b58.css",
+    "static/js/main.10ecf000.js"
+  ]
+}
