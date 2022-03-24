@@ -51,7 +51,7 @@ const MovieItem: React.FC<Props> = (props: Props) => {
           <p
             className="movie__link"
             onClick={() => {
-              if (addWL != "Добавлено") {
+              if (addWL !== "Добавлено") {
                 setWatchList([...watchList, movie.id]);
                 setAddWL("Добавлено");
               }
@@ -77,7 +77,7 @@ const MovieItem: React.FC<Props> = (props: Props) => {
         ) : page === 1 ? (
           <p className="movie__description">{movie.description}</p>
         ) : (
-          <ActorList actors_id={movie.actors} />
+          <ActorList actorsId={movie.actors} />
         )}
       </div>
     </div>
