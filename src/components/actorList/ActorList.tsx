@@ -4,12 +4,12 @@ import ActorItem from "../actorItem/ActorItem";
 import "../../assets/css/Actor.css";
 
 type Props = {
-  actors_id: number[];
+  actorsId: number[];
 };
 
-const MovieList: React.FC<Props> = (props: Props) => {
+const ActorList: React.FC<Props> = (props: Props) => {
   const actorsList = actors.filter((actor) =>
-    props.actors_id.includes(actor.id)
+    props.actorsId.includes(actor.id)
   );
   return (
     <div className="actor__list">
@@ -20,4 +20,4 @@ const MovieList: React.FC<Props> = (props: Props) => {
   );
 };
 
-export default MovieList;
+export default ActorList;

@@ -5,8 +5,7 @@ type Props = {
   actor: Actor;
 };
 
-const MovieItem: React.FC<Props> = (props: Props) => {
-  const { actor } = props;
+const ActorItem: React.FC<Props> = ({ actor }) => {
   return (
     <div key={actor.id} className="actor__item">
       <img src={actor.photo} alt={actor.name} className="actor__photo" />
@@ -19,4 +18,4 @@ const MovieItem: React.FC<Props> = (props: Props) => {
   );
 };
 
-export default MovieItem;
+export default ActorItem;
